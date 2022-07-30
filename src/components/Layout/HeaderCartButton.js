@@ -3,7 +3,7 @@ import classes from "./HeaderCartButton.module.css";
 
 const HeaderCartButton = (porps) => {
   return (
-    <button className={classes.button}>
+    <button className={classes.button} onClick={porps.onClick}>
       <span className={classes.icon}>
         <CartIcon />
       </span>
